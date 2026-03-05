@@ -22,7 +22,7 @@ cd ..
 REM Step 2: Git commit
 echo.
 echo [2/4] Committing to Git...
-c
+git add -A
 git commit -m "StackAI deploy"
 echo Code committed!
 
@@ -51,3 +51,6 @@ echo   4. Add all env vars from backend\.env.example
 echo.
 echo Done! See README.md for full instructions.
 pause
+        
+        Supabasedbpw : ozl5kUHxcNTqygr0 
+        postgresql://postgres:ozl5kUHxcNTqygr0@db.qqamyfpqobqzkgzhmswo.supabase.co:5432/postgres 
